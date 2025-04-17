@@ -1,0 +1,108 @@
+header{
+    border: 1.5px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+    background-color: #3b535eb6;
+    }
+
+img{
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+    align-content: baseline ;
+    box-shadow: 10px,10px,5px black;
+}
+
+.Menu{
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    }
+
+.Menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    padding: auto;
+
+}
+.Menu a{
+    color:aliceblue;
+    border: 1.5px solid;
+    border-radius: 10px;
+    border-color: aliceblue;
+    padding: 5px;
+    margin:5px ;
+}
+.Menu a:link{
+    text-decoration: none;
+}
+.Menu a:visited{
+    text-decoration: underline;
+}
+.Menu a:hover{
+    text-decoration:underline ;
+}
+.Menu a:active{
+    text-decoration: underline;
+}
+
+main h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 27, 70);
+    text-align:center;
+    width: fit-content;
+    margin:  auto;
+    padding: 30px;
+    }
+
+.Lista_Materias{
+    display: flex; /*usa flexbox*/
+    flex-direction: column; /*Acomoda los ítems en columna*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    margin: 0 auto;
+    padding: 20px;
+ 
+}
+.Lista_Materias li{
+    list-style: none;
+    border: 1.5px solid;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    background-color:#AA8C4F;
+    
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    text-decoration: underline;
+}
+
+
+footer{
+    display:block; /*Convierto el contenedor en flex.*/
+    text-align: center;
+    justify-content: center; /*Justifico el contenido al centro*/
+    margin-top: 200px;/*Le doy un espaciado del borde superior.*/
+    margin-bottom: 100px;
+}

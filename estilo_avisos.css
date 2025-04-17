@@ -1,0 +1,160 @@
+header{
+    border: 1.5px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+    background-color: #3b535eb6;
+    }
+img{
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+    align-content: baseline ;
+    box-shadow: 10px,10px,5px black;
+}
+.Menu{
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    }
+
+.Menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    padding: auto;
+
+}
+.Menu a{
+    color:aliceblue;
+    border: 1.5px solid;
+    border-radius: 10px;
+    border-color: aliceblue;
+    padding: 5px;
+    margin:5px ;
+}
+.Menu a:link{
+    text-decoration: none;
+}
+.Menu a:visited{
+    text-decoration: underline;
+}
+.Menu a:hover{
+    text-decoration:underline ;
+}
+.Menu a:active{
+    text-decoration: underline;
+}
+
+
+main h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.Materias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+}
+/*Modificando Lista Arq. Comp.*/
+.Pendiente_Arqui{
+    list-style: none;
+    border-top: 1.5px solid;
+    border-left: 1.5px solid;
+    padding: 25px;
+}
+.Pendiente_Arqui h3{
+    color:#30424bb6;
+}
+.Pendiente_Arqui h5{
+    color:#000000d5;
+}
+.Pendiente_Arqui ul{
+    display: inline-block;
+    text-align: left;
+    border: 1.5px solid;
+    border-radius: 20px;
+    padding: 20px;
+    list-style-type:square;
+}
+
+/*Modificando Lista Sist.InfoI*/
+.Pendiente_SistInfoI h3{
+    color:#30424bb6;
+}
+.Pendiente_SistInfoI{
+    list-style: none;
+}
+.Pendiente_SistInfoI h5{
+    color:#000000d5;
+}
+.Pendiente_SistInfoI ul{
+    display: inline-block;
+    text-align: left;
+    border: 1.5px solid;
+    border-radius: 20px;
+    padding: 20px;
+    list-style-type:square;
+}
+
+/*Modificando Lista Marketing*/
+.Pendiente_MKT h3{
+    color:#30424bb6;
+}
+.Pendiente_MKT{
+    list-style: none;
+}
+.Pendiente_MKT h5{
+    color:#000000d5;
+}
+.Pendiente_MKT ul{
+    display: inline-block;
+    text-align: left;
+    border: 1.5px solid;
+    border-radius: 20px;
+    padding: 20px;
+    list-style-type:square;
+}
+/*Modificando Lista DYDWeb.*/
+
+.Pendiente_DDWeb{
+    list-style: none;
+    border-bottom: 1.5px solid;
+    border-right: 1.5px solid;
+    padding: 25px;
+}
+.Pendiente_DDWeb h3{
+    color:#30424bb6;}
+
+.Pendiente_DDWeb h5{
+    color:#000000d5;
+}
+.Pendiente_DDWeb ul{
+    display: inline-block;
+    text-align: left;
+    border: 1.5px solid;
+    border-radius: 20px;
+    padding: 20px;
+    list-style-type:square;
+}
+
+/*Modificando H5 Lista Arq. Comp.*/
+
+
+footer{
+    display:block; /*Convierto el contenedor en flex.*/
+    text-align: center;
+    justify-content: center; /*Justifico el contenido al centro*/
+    margin-top: 200px;/*Le doy un espaciado del borde superior.*/
+    margin-bottom: 100px;
+}
+
+
+
+
